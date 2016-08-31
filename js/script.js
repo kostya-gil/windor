@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".door-open").fancybox({helpers:{title:{type:"float"}}}),$(".scroll-link").click(function(){return $("html, body").animate({scrollTop:$($(this).attr("href")).offset().top-30+"px"},{duration:1e3}),!1}),$(".modal-btn").click(function(){$("#modal").arcticmodal()}),$(".modal-window__close").click(function(){$(this).parent().arcticmodal("close")})});
